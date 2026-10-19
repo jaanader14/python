@@ -1,4 +1,6 @@
-arv1 = int(input("Sisesta 1. arv: "))
-arv2 = int(input("Sisesta 2. arv: "))
-arv3 = int(input("Sisesta 3. arv: "))
-arv4 = int(input("Sisesta 4. arv: "))
+summa = 0
+mitu_arvu = 5
+for i in range (1, mitu_arvu + 1):
+    arv = int(input(f"Sisesta {i}. arv: "))
+    summa = summa + arv
+    print(f"Arvude summa on {summa}")
