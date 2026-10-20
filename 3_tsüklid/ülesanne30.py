@@ -8,5 +8,6 @@ while i < 101:
         kull = kull + 1
     else:
         kiri = kiri + 1
+    i += 1
 print(f"Kull: {kull}")
 print(f"Kiri: {kiri}")
