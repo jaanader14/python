@@ -2,10 +2,12 @@ tooted = 0
 summa = 0
 print("Sisesta hind: ")
 hind = float(input())
+
 while hind != 0:
-    print("Sisesta hind: ")
-    hind = float(input())
     tooted += 1
     summa += hind
+    print("Sisesta hind: ")
+    hind = float(input())
+
 print(f"Tooteid: {tooted}")
-print(f"Kokku: {summa}")
+print(f"Kokku: {summa} €")

@@ -1,6 +1,6 @@
-isikukood = int(input("Sisesta isikukood:"))
-pikkus = len(isikukood)
-if isikukood[0] >= 1 and isikukood <= 8 and pikkus == 11:
+isikukood = (input("Sisesta isikukood: "))
+
+if len(isikukood) == 11 and isikukood.isdigit() and "1" <= isikukood[0] <= "8":
     print("Vorming on sobiv")
 else:
     print("Vorming ei sobi")

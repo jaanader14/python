@@ -1,13 +1,13 @@
-imporimport tkinter as tk
+import tkinter as tk
+
+laius = 600
+kõrgus = 400
+tausta_värv = "white"
+
 aken = tk.Tk()
 aken.title("Minu esimene graafika")
 
-tahvel = tk.Canvas(
-    aken,
-    width=600,
-    height=400,
-    bg="white")
-
+tahvel = tk.Canvas(aken, width=laius, height=kõrgus, bg=tausta_värv)
 tahvel.pack()
 
 aken.mainloop()
