@@ -10,8 +10,7 @@ def teisenda_sekundid(sekundid):
     return tunnid, minutid, ülejääk2
 
 test = 3675
-t, m, s = teisenda_sekundid(test)
+tund, minut, sekund = teisenda_sekundid(test)
 
 print(f"Algne sekundite arv: {test}")
-print(f"Tagastatud väärtused: {t}, {m}, {s}")
-print(f"Ehk kokku: {t} tund, {m} minut ja {s} sekundit.")
+print(f"Kokku: {tund} tund, {minut} minut ja {sekund} sekundit.")
