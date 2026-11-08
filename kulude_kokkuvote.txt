@@ -1,0 +1,11 @@
+KULUDE KOKKUVÕTE
+================
+Tehingute arv kokku: 5
+Kogukulu: 18.90 €
+
+Kulud kategooriate kaupa:
+-------------------------
+Toit: 11.70 €
+Transport: 2.00 €
+transport: 2.00 €
+toit: 3.20 €

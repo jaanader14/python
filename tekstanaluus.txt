@@ -1,0 +1,11 @@
+Teksti analüüsi tulemused:
+Sõnade arv: 12
+Lausete ligikaudne arv: 3
+Pikim sõna: 'kursusele' (9 tähte)
+
+Viis kõige sagedamat sõna:
+1. 'tere' – 1 korda
+2. 'tulemast' – 1 korda
+3. 'pythoni' – 1 korda
+4. 'kursusele' – 1 korda
+5. 'täna' – 1 korda

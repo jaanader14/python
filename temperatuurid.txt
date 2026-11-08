@@ -1,10 +1,7 @@
--3
-2
-5
--1
-8
-12
-6
-0
--4
-3
+Esmaspäev 12
+Teisipäev 15
+Kolmapäev 11
+Neljapäev 17
+Reede 14
+Laupäev 19
+Pühapäev 16

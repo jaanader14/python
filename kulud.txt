@@ -1,0 +1,5 @@
+8.50;Toit;Lõunasöök;8.50
+13.10.2026;Transport;Bussipilet;2.00
+14.10.2026;Toit;Kohv;3.20
+13.10.2026;transport;bussipilet;2.00
+14.10.2026;toit;kohv;3.20
