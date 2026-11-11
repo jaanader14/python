@@ -1,4 +1,6 @@
 hinded = [3, 4, 2, 5, 3, 4]
-hinded2 = [5, 4, 4, 5, 3, 5]
-print(hinded)
-print(hinded2)
+print("Järjend enne:", hinded)
+hinded[0] = 5
+hinded[2] = 4
+hinded[-1] = 5
+print("Järjend pärast:", hinded)

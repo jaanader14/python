@@ -15,7 +15,7 @@ def arvuta_hinne(punkt):
         return 4
     elif punkt >= 50:
         return 3
-    elif punkt >= 45:
+    elif punkt >= 20:
         return 2
     else:
         return 1

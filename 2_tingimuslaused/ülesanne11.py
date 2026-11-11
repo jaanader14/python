@@ -1,7 +1,7 @@
 arv = int(input("Sisesta arv: "))
 if arv == 0:
     print("Arv on null.")
-if arv > 0:
+elif arv > 0:
     print("Arv on positiivne.")
-if arv < 0:
+else:
     print("Arv on negatiivne.")

@@ -2,5 +2,5 @@ tervitus = int(input("Mitu korda tahad tervitust? "))
 i = 1
 
 while i <= tervitus:
-    print("Tere!")
+    print(f"{i}. Tere!")
     i = i + 1

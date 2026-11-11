@@ -1,5 +1,4 @@
 def arvuta():
     tulemus = 25
-    print(tulemus)
-
-arvuta()
+    return tulemus
+print(arvuta())

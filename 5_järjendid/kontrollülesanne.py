@@ -1,20 +1,5 @@
-algandmed = """Mari;87
-Juhan;65
-Kati;94
-Peeter;48
-Anna;76
-Markus;91
-Liisa;58
-Rasmus;83
-Laura;100
-Karl;39"""
-
-with open("kontrolltoo.csv", "w", encoding="utf-8") as fail:
-    fail.write(algandmed)
-
 nimed = []
 punktid = []
-
 with open("kontrolltoo.csv", "r", encoding="utf-8") as fail:
     for rida in fail:
         puhastatud_rida = rida.strip()

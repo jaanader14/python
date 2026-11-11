@@ -4,8 +4,8 @@ koolitee_pikkus = float(input("Sisesta koolitee pikkus kilomeetrites: "))
 koolitee_kestus = float(input("Sisesta koolitee kestus minutites: "))
 vanus2 = vanus + 1
 koolitee_pikkus2 = koolitee_pikkus * 1000
-tund = koolitee_kestus // 60
-minut = koolitee_kestus % 60
+tund = int(koolitee_kestus // 60)
+minut = int(koolitee_kestus % 60)
 koolitee_tundides = koolitee_kestus / 60
 kiirus = koolitee_pikkus / koolitee_tundides
 print(f"Tere, {nimi}!")

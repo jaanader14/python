@@ -1,5 +1,5 @@
 print("Kirjuta sõna:")
-sõna = input()
+sõna = input().lower()
 while sõna != "head aega":
     if sõna == "tere":
         print("Tere! Kuidas saan aidata?")
@@ -12,5 +12,5 @@ while sõna != "head aega":
     else:
         print("Tundmatu sõna")
     print("Kirjuta sõna:")
-    sõna = input()
+    sõna = input().lower()
 print("Nägemist!")

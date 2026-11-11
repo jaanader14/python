@@ -1,3 +1,3 @@
 eesnimi = input("Eesnimi: ")
 perenimi = input("Perekonnanimi: ")
-print("Täisnimi: " + eesnimi + perenimi)
+print("Täisnimi: " + eesnimi + " " + perenimi)

@@ -1,29 +1,5 @@
 import os
 
-
-def loo_lahtefail_kui_puudub():
-    """Loob faili tulemused.txt algsete näidisandmetega, kui seda pole olemas."""
-    sisendfail = "tulemused.txt"
-
-    naidisandmed = (
-        "Mari;85;92;78\n"
-        "Jüri;60;55;70\n"
-        "Anna;95;88;91\n"
-        "Peeter;40;52;48\n"
-        "Kati;78;82;85\n"
-        "Martin;67;73;69\n"
-        "Laura;90;94;96\n"
-        "Rasmus;50;45;55\n"
-    )
-
-    if not os.path.exists(sisendfail):
-        with open(sisendfail, "w", encoding="utf-8") as f:
-            f.write(naidisandmed)
-        print(
-            f"Teavitus: Lõin automaatselt algfaili '{sisendfail}' näidisandmetega.\n"
-        )
-
-
 def leia_hinne(keskmine):
     """Määrab hinde vastavalt hindamisskaalale."""
     if keskmine >= 90:
@@ -37,12 +13,9 @@ def leia_hinne(keskmine):
     else:
         return 1
 
-
 def tootle_tulemused():
     sisendfail = "tulemused.txt"
     valjundfail = "aruanne.txt"
-
-    loo_lahtefail_kui_puudub()
 
     if not os.path.exists(sisendfail):
         print(f"Viga: Lähtefaili '{sisendfail}' ei leitud!")

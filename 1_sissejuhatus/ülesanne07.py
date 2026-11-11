@@ -1,9 +1,5 @@
-print("Mis on sinu eesnimi?")
-eesnimi = input()
-print("Mis on sinu perekonnanimi?")
-perenimi = input()
-print("Kui vana sa oled?")
-vanus = input()
-print("Mis linnas sa elad?")
-linn = input()
-print("Minu eesnimi on " + eesnimi + " ja perekonnanimi on " + perenimi + " ja ma olen " + vanus + " ja ma elan " + linn + " linnas. ") 
+first_name = "Jaan"
+last_name = "Ader"
+age = str(16)
+city = "Saverna"
+print("Minu eesnimi on " + first_name + " ja perekonnanimi on " +last_name + " ja ma olen " + age + " ja ma elan " + city + " linnas. ")
